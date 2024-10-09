@@ -24,7 +24,7 @@ def vizinho_mais_proximo(pontos):
 
     return rota
 
-with open("c:/Users/User Client/Desktop/clevton/Projeto FlyFood/pontos_de_entrega.txt") as arquivo:
+with open("/home/heldjow/Downloads/flyfood/pontos_de_entrega.txt") as arquivo:
     linhas_lista = arquivo.readlines()
 
 casinhas = {}
